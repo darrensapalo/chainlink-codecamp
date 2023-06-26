@@ -1,4 +1,26 @@
-# Questions
+# Overview of work
+
+1. Reviewed, updated, and completed the whole setup instructions.
+2. Performed tutorials 1-3 (deploy a smart contract on Remix IDE, data feeds tutorial, VRF game of thrones tutorial)
+
+
+# Broad Questions
+
+## 1. What is the expected completed work from the attendees?
+
+Which parts are required and which parts are optional?
+
+- (Required?) Running the Javascript that performs APY calculation
+- (Optional?) Customizing their own smart contract via Open Zeppelin
+- etc.
+
+
+## 2. Any specific concerns you want to discuss when it comes to workshop day?
+
+- Plan B on network failures on your end
+- etc.
+
+# Specific Questions
 
 ## 1. What value do we specify on [steps 7-9](https://github.com/smartcontractkit/functions-hardhat-starter-kit) for the `--network` parameter? Is `polygonMumbai` correct?
 
@@ -97,11 +119,8 @@ Error: missing revert data in call exception; Transaction reverted without a rea
 }
 ```
 
-## 6. What is the expected completed work from the attendees?
+## 6. When does the "Open zeppelin contract wizard" get used?
 
-## 7. When does the "Open zeppelin contract wizard" get used?
+## 7. When does the newly created AccuWeather app get used?
 
-## 8. When does the newly created AccuWeather app get used?
-
-## 9. When do the IPFS Metadata get used?
-
+## 8. When do the IPFS Metadata get used?
