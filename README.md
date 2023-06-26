@@ -89,3 +89,13 @@ In Chainlink, this sequence is known as the Request and Receive cycle.
 VRF requests receive funding from subscription accounts. The Subscription Manager lets you create an account and pre-pay for VRF requests, so that funding of all your application requests are managed in a single location. To learn more about VRF requests funding, see Subscriptions limits.
 
 [Source](https://docs.chain.link/getting-started/intermediates-tutorial/)
+
+**18. In the context of Chainlink, what is Off-Chain Reporting (OCR)?**
+
+What is OCR?
+
+Imagine ordering 10 items from an online store. Each item is packaged separately and posted separately, meaning postage and packaging costs must be applied to each one, and the carrier has to transport 10 different boxes.
+
+OCR, on the other hand, packages all of these items into a single box and posts that. This saves postage and packaging fees and all effort the carrier associates with transporting 9 fewer boxes.
+
+The OCR protocol allows nodes to aggregate their observations into a single report off-chain using a secure P2P network. A single node then submits a transaction with the aggregated report to the chain. Each report consists of many nodes' observations and has to be signed by a quorum of nodes. These signatures are verified on-chain.
