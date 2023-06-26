@@ -77,3 +77,15 @@ The Zeppelin Contract Wizard is an interactive tool developed by OpenZeppelin fo
 **15. What does VRF mean?**
 
 VRF stands for Verifiable Random Function. In the context of blockchains and smart contracts, a VRF is a function that generates a random number that is verifiable on-chain. This is important for certain applications like gaming, lottery, and other use cases where a random outcome needs to be proven to be fair and unbiased. One well-known implementation of VRF is provided by Chainlink, which provides a provably-fair and verifiable source of randomness for smart contracts on Ethereum and other blockchains.
+
+**16. What is the Request and Receive cycle?**
+
+Random values cannot be reference data found on the blockchain. If the result of randomness is stored on-chain, any actor could retrieve the value and predict the outcome. Instead, randomness must be requested from an oracle, which generates a number and a cryptographic proof. Then, the oracle returns that result to the contract that requested it. 
+
+In Chainlink, this sequence is known as the Request and Receive cycle.
+
+**17. How are VRFs funded on Chainlink?**
+
+VRF requests receive funding from subscription accounts. The Subscription Manager lets you create an account and pre-pay for VRF requests, so that funding of all your application requests are managed in a single location. To learn more about VRF requests funding, see Subscriptions limits.
+
+[Source](https://docs.chain.link/getting-started/intermediates-tutorial/)
