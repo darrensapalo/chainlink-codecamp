@@ -25,6 +25,12 @@ modify your request parameters found in `Functions-request-config.js` specifying
 
 For live (e.g. testnet) or production use-cases, you would interact with the smart contract using Remix IDE, and specify your parameters there.
 
+### 3.a How do we access the smart contract from Remix IDE?
+
+Smart contract: `0x18111cf4770CA5CFB02e9Be12620D14C08B0fbf0`
+
+https://mumbai.polygonscan.com/address/0x18111cf4770CA5CFB02e9Be12620D14C08B0fbf0
+
 ## 4. On timeouts and rate limiting --
 
 How do we handle timeout or rate limiting issues onsite? What can the attendees do/focus on while waiting for these kinds of issues to get resolved?
