@@ -1,6 +1,6 @@
 # Introduction to Chainlink
 
-> These two categories are for clarification with Frank.
+> 🤔 Are these lessons properly categorized into preqreuisite knowledge and workshop contents? What are we expecting the attendees to already be familiar with?
 
 ## Prerequisite knowledge
 
