@@ -1,6 +1,6 @@
 # Questions
 
-1. What value do we specify on [steps 7-9](https://github.com/smartcontractkit/functions-hardhat-starter-kit) for the `--network` parameter? Is `polygonMumbai` correct?
+## 1. What value do we specify on [steps 7-9](https://github.com/smartcontractkit/functions-hardhat-starter-kit) for the `--network` parameter? Is `polygonMumbai` correct?
 
 ```bash
 npx hardhat functions-deploy-client --network network_name_here --verify true
@@ -14,15 +14,20 @@ npx hardhat functions-sub-create --network network_name_here --amount LINK_fundi
 npx hardhat functions-request --network network_name_here --contract 0xDeployed_client_contract_address_here --subid subscription_id_number_here
 ```
 
-2. When does the "Open zeppelin contract wizard" get used?
+## 2. On which IDE to use
 
-3. When does the newly created AccuWeather app get used?
+Is my understanding correct: We should clone the project locally for development purposes, but use the Remix IDE for remote (online) or production testing.
 
-4. When do the IPFS Metadata get used?
+## 3. On interacting with the smart contract
 
-5. Should we be cloning the project locally or should we be running it on Remix IDE?
+Is my understanding correct: On the chainlink functions starter kit repository while you are doing development, you technically only need to 
+modify your request parameters found in `Functions-request-config.js` specifying which Javascript file to run and what parameters to use.
 
-6. How do we handle timeout or rate limiting issues onsite? What can the attendees do/focus on while waiting for these kinds of issues to get resolved?
+For live (e.g. testnet) or production use-cases, you would interact with the smart contract using Remix IDE, and specify your parameters there.
+
+## 4. On timeouts and rate limiting --
+
+How do we handle timeout or rate limiting issues onsite? What can the attendees do/focus on while waiting for these kinds of issues to get resolved?
 
 Command: 
 
@@ -52,7 +57,7 @@ Relevant docs:
 - https://docs.alchemy.com/reference/throughput
 - https://ethereum.stackexchange.com/questions/139524/forking-mainnet-with-hardhat-alchemy-fails-with-too-many-requests
 
-7. How do we handle this "transaction reverted without a reason string" error?
+## 5. How do we handle this "transaction reverted without a reason string" error?
 
 ```bash
 darren@DESKTOP-SVK799G ~/g/g/d/functions-hardhat-starter-kit (main) [1]> 
@@ -86,4 +91,11 @@ Error: missing revert data in call exception; Transaction reverted without a rea
 }
 ```
 
-8. What is the expected output upon completion for the attendees?
+## 6. What is the expected completed work from the attendees?
+
+## 7. When does the "Open zeppelin contract wizard" get used?
+
+## 8. When does the newly created AccuWeather app get used?
+
+## 9. When do the IPFS Metadata get used?
+
