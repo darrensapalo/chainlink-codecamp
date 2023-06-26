@@ -22,8 +22,7 @@ npx hardhat functions-request --network network_name_here --contract 0xDeployed_
 
 5. Should we be cloning the project locally or should we be running it on Remix IDE?
 
-6. Is this timeout issue something we just "wait out"?
-
+6. How do we handle timeout or rate limiting issues onsite? What can the attendees do/focus on while waiting for these kinds of issues to get resolved?
 
 Command: 
 
@@ -86,3 +85,5 @@ Error: missing revert data in call exception; Transaction reverted without a rea
       at EthersProviderWrapper.send (/home/darren/git/github.com/darrensapalo/functions-hardhat-starter-kit/node_modules/@nomiclabs/hardhat-ethers/src/internal/ethers-provider-wrapper.ts:13:20)
 }
 ```
+
+8. What is the expected output upon completion for the attendees?
