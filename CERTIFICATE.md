@@ -44,6 +44,7 @@ To receive the certificate, you must:
 
 1. Provide the smart contract address (the NFTDogs.sol that you've deployed) demonstrating that you have successfully completed the work.
 2. Provide the ETH wallet address where the certificate will be sent.
+3. Provide your LinkedIn URL.
 
 ## Gold certificate
 
@@ -53,4 +54,4 @@ To receive the certificate, you must:
 
 1. Provide the smart contract address (the dynamic NFT following the day 2 repository) demonstrating that you have successfully completed the work.
 2. Provide the ETH wallet address where the certificate will be sent.
-
+3. Provide your LinkedIn URL.
