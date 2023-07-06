@@ -31,6 +31,26 @@ The above details can be further explored [here](https://github.com/QingyangKong
 
 # Receiving a certificate
 
-To receive the certificate, please leave your wallet address here:
+To receive the silver or gold certificates, you need to message @darrensapalo on Telegram
+or email me at darren.sapalo@gmail.com with subject "Chainlink Codecamp Certificate".
 
-https://pad.riseup.net/p/7-1ChainlinkBootcamp
+I will then coordinate with Frank with regard to transferring the certificates.
+
+## Silver certificate
+
+The silver certificate signifies that you've completed the work in the morning session.
+
+To receive the certificate, you must:
+
+1. Provide the smart contract address (the NFTDogs.sol that you've deployed) demonstrating that you have successfully completed the work.
+2. Provide the ETH wallet address where the certificate will be sent.
+
+## Gold certificate
+
+The silver certificate signifies that you've completed the work in the morning session.
+
+To receive the certificate, you must:
+
+1. Provide the smart contract address (the dynamic NFT following the day 2 repository) demonstrating that you have successfully completed the work.
+2. Provide the ETH wallet address where the certificate will be sent.
+
