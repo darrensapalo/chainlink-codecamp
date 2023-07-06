@@ -36,6 +36,8 @@ or email me at darren.sapalo@gmail.com with subject "Chainlink Codecamp Certific
 
 I will then coordinate with Frank with regard to transferring the certificates.
 
+⚠ Reminder: For security purposes, please do not use an ETH wallet account that is associated to your dev/test network! You were supposed to use a throwaway wallet address during the session as stated in the setup instructions (step 1.3).
+
 ## Silver certificate
 
 The silver certificate signifies that you've completed the work in the morning session.
