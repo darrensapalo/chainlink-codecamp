@@ -31,10 +31,11 @@ The above details can be further explored [here](https://github.com/QingyangKong
 
 # Receiving a certificate
 
-To receive the silver or gold certificates, you need to message @darrensapalo on Telegram
-or email me at darren.sapalo@gmail.com with subject "Chainlink Codecamp Certificate".
+To receive the silver or gold certificates, you need to:
 
-I will then coordinate with Frank with regard to transferring the certificates.
+1. Join [The Daily Crypto Discord channel](https://discord.gg/thedailycryptoph).
+2. Go to `#ticket-service` channel and create a new ticket.
+3. Provide the information listed below.
 
 ⚠ Reminder: For security purposes, please do not use an ETH wallet account that is associated to your dev/test network! You were supposed to use a throwaway wallet address during the session as stated in the setup instructions (step 1.3).
 
@@ -57,3 +58,5 @@ To receive the certificate, you must:
 1. Provide the smart contract address (the dynamic NFT following the day 2 repository) demonstrating that you have successfully completed the work.
 2. Provide the ETH wallet address where the certificate will be sent.
 3. Provide your LinkedIn URL.
+
+You will be notified about your certificate via the discord ticket, once the NFT certificate has been sent to you. Congratulations!
